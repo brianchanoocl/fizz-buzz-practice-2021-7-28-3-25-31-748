@@ -3,7 +3,7 @@ package tdd.fizzbuzz;
 //[fizzBuzz] [Brian] -feat
 
 public class FizzBuzz {
-    public String countoff(int order){
+    public String countOff(int order){
         String response = "";
         if(order %3 == 0)
             response += "Fizz";

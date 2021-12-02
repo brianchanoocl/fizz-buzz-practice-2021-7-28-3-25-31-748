@@ -60,7 +60,7 @@ public class FizzBuzzTest {
     }
 
     @test
-    void should_return_number_if_order_is__multiple_of_3_5(){
+    void should_return_number_if_order_is__multiple_of_3_and_5(){
         // given
         int order = 15;
         String expectedResult = "FizzBuzz";
@@ -73,7 +73,7 @@ public class FizzBuzzTest {
     }
 
     @test
-    void should_return_number_if_order_is__multiple_of_3_7(){
+    void should_return_number_if_order_is__multiple_of_3_and_7(){
         // given
         int order = 21;
         String expectedResult = "FizzWhizz";
@@ -86,7 +86,7 @@ public class FizzBuzzTest {
     }
 
     @test
-    void should_return_number_if_order_is__multiple_of_5_7(){
+    void should_return_number_if_order_is__multiple_of_5_and_7(){
         // given
         int order = 35;
         String expectedResult = "BuzzWhizz";
@@ -99,7 +99,7 @@ public class FizzBuzzTest {
     }
 
     @test
-    void should_return_number_if_order_is__multiple_of_3_5_7(){
+    void should_return_number_if_order_is__multiple_of_3_5_and_7(){
         // given
         int order = 105;
         String expectedResult = "FizzBuzzWhizz";
